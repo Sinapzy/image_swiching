@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
-img1 = cv.imread('C:/Users/Administrator/Desktop/zy/cv/image/re-photos_4157/before.jpg')
-img2 = cv.imread('C:/Users/Administrator/Desktop/zy/cv/image/re-photos_4157/after.jpg')
+img1 = cv.imread('C:/Users/Administrator/Desktop/cv_hwk/image_swiching/image/re-photos_4157/before.jpg')
+img2 = cv.imread('C:/Users/Administrator/Desktop/cv_hwk/image_swiching/image/re-photos_4157/after.jpg')
 gray1= cv.cvtColor(img1,cv.COLOR_BGR2GRAY)
 sift1 = cv.xfeatures2d.SIFT_create()
 kp1 = sift1.detect(gray1,None)
