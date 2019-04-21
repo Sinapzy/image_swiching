@@ -2,10 +2,8 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 MIN_MATCH_COUNT = 50
-#img1 = cv.imread('C:/Users/Administrator/Desktop/image/03.jpg',0) # queryImage
-#img2 = cv.imread('C:/Users/Administrator/Desktop/image/01.jpg') # trainImage
-img1 = cv.imread('C:/Users/Administrator/Desktop/zy/cv/image/re-photos_4157/before.jpg',0)
-img2 = cv.imread('C:/Users/Administrator/Desktop/zy/cv/image/re-photos_4157/after.jpg')
+img1 = cv.imread('C:/Users/Administrator/Desktop/cv_hwk/image_swiching/image/re-photos_4157/before.jpg',0)
+img2 = cv.imread('C:/Users/Administrator/Desktop/cv_hwk/image_swiching/image/re-photos_4157/after.jpg')
 # Initiate SIFT detector
 sift = cv.xfeatures2d.SIFT_create()
 # find the keypoints and descriptors with SIFT
