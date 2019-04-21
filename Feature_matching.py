@@ -1,10 +1,8 @@
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
-#img1 = cv.imread('C:/Users/Administrator/Desktop/image/r1.jpg',cv.IMREAD_GRAYSCALE)          # queryImage
-#img2 = cv.imread('C:/Users/Administrator/Desktop/image/r2.jpg',cv.IMREAD_GRAYSCALE) # trainImage
-img1 = cv.imread('C:/Users/Administrator/Desktop/zy/cv/image/re-photos_4157/before.jpg')
-img2 = cv.imread('C:/Users/Administrator/Desktop/zy/cv/image/re-photos_4157/after.jpg')
+img1 = cv.imread('C:/Users/Administrator/Desktop/cv_hwk/image_swiching/image/re-photos_4157/before.jpg')
+img2 = cv.imread('C:/Users/Administrator/Desktop/cv_hwk/image_swiching/image/re-photos_4157/after.jpg')
 # Initiate SIFT detector
 sift = cv.xfeatures2d.SIFT_create()
 # find the keypoints and descriptors with SIFT
